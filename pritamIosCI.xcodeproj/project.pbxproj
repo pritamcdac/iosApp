@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32732AA2DAE3BDD002B3477 /* pritamIosCIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32732A92DAE3BDD002B3477 /* pritamIosCIApp.swift */; };
+		C32732AC2DAE3BDD002B3477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32732AB2DAE3BDD002B3477 /* ContentView.swift */; };
+		C32732AE2DAE3BE3002B3477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32732AD2DAE3BE3002B3477 /* Assets.xcassets */; };
+		C32732B12DAE3BE3002B3477 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32732B02DAE3BE3002B3477 /* Preview Assets.xcassets */; };
+		C32732BB2DAE3BE4002B3477 /* pritamIosCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32732BA2DAE3BE4002B3477 /* pritamIosCITests.swift */; };
+		C32732C52DAE3BE4002B3477 /* pritamIosCIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32732C42DAE3BE4002B3477 /* pritamIosCIUITests.swift */; };
+		C32732C72DAE3BE4002B3477 /* pritamIosCIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32732C62DAE3BE4002B3477 /* pritamIosCIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32732B72DAE3BE4002B3477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C327329E2DAE3BDD002B3477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32732A52DAE3BDD002B3477;
+			remoteInfo = pritamIosCI;
+		};
+		C32732C12DAE3BE4002B3477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C327329E2DAE3BDD002B3477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32732A52DAE3BDD002B3477;
+			remoteInfo = pritamIosCI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C32732A62DAE3BDD002B3477 /* pritamIosCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pritamIosCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32732A92DAE3BDD002B3477 /* pritamIosCIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pritamIosCIApp.swift; sourceTree = "<group>"; };
+		C32732AB2DAE3BDD002B3477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C32732AD2DAE3BE3002B3477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32732B02DAE3BE3002B3477 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C32732B62DAE3BE4002B3477 /* pritamIosCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pritamIosCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32732BA2DAE3BE4002B3477 /* pritamIosCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pritamIosCITests.swift; sourceTree = "<group>"; };
+		C32732C02DAE3BE4002B3477 /* pritamIosCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pritamIosCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32732C42DAE3BE4002B3477 /* pritamIosCIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pritamIosCIUITests.swift; sourceTree = "<group>"; };
+		C32732C62DAE3BE4002B3477 /* pritamIosCIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pritamIosCIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32732A32DAE3BDD002B3477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32732B32DAE3BE4002B3477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32732BD2DAE3BE4002B3477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C327329D2DAE3BDD002B3477 = {
+			isa = PBXGroup;
+			children = (
+				C32732A82DAE3BDD002B3477 /* pritamIosCI */,
+				C32732B92DAE3BE4002B3477 /* pritamIosCITests */,
+				C32732C32DAE3BE4002B3477 /* pritamIosCIUITests */,
+				C32732A72DAE3BDD002B3477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32732A72DAE3BDD002B3477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32732A62DAE3BDD002B3477 /* pritamIosCI.app */,
+				C32732B62DAE3BE4002B3477 /* pritamIosCITests.xctest */,
+				C32732C02DAE3BE4002B3477 /* pritamIosCIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32732A82DAE3BDD002B3477 /* pritamIosCI */ = {
+			isa = PBXGroup;
+			children = (
+				C32732A92DAE3BDD002B3477 /* pritamIosCIApp.swift */,
+				C32732AB2DAE3BDD002B3477 /* ContentView.swift */,
+				C32732AD2DAE3BE3002B3477 /* Assets.xcassets */,
+				C32732AF2DAE3BE3002B3477 /* Preview Content */,
+			);
+			path = pritamIosCI;
+			sourceTree = "<group>";
+		};
+		C32732AF2DAE3BE3002B3477 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C32732B02DAE3BE3002B3477 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C32732B92DAE3BE4002B3477 /* pritamIosCITests */ = {
+			isa = PBXGroup;
+			children = (
+				C32732BA2DAE3BE4002B3477 /* pritamIosCITests.swift */,
+			);
+			path = pritamIosCITests;
+			sourceTree = "<group>";
+		};
+		C32732C32DAE3BE4002B3477 /* pritamIosCIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C32732C42DAE3BE4002B3477 /* pritamIosCIUITests.swift */,
+				C32732C62DAE3BE4002B3477 /* pritamIosCIUITestsLaunchTests.swift */,
+			);
+			path = pritamIosCIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32732A52DAE3BDD002B3477 /* pritamIosCI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32732CA2DAE3BE4002B3477 /* Build configuration list for PBXNativeTarget "pritamIosCI" */;
+			buildPhases = (
+				C32732A22DAE3BDD002B3477 /* Sources */,
+				C32732A32DAE3BDD002B3477 /* Frameworks */,
+				C32732A42DAE3BDD002B3477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pritamIosCI;
+			productName = pritamIosCI;
+			productReference = C32732A62DAE3BDD002B3477 /* pritamIosCI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32732B52DAE3BE4002B3477 /* pritamIosCITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32732CD2DAE3BE4002B3477 /* Build configuration list for PBXNativeTarget "pritamIosCITests" */;
+			buildPhases = (
+				C32732B22DAE3BE4002B3477 /* Sources */,
+				C32732B32DAE3BE4002B3477 /* Frameworks */,
+				C32732B42DAE3BE4002B3477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32732B82DAE3BE4002B3477 /* PBXTargetDependency */,
+			);
+			name = pritamIosCITests;
+			productName = pritamIosCITests;
+			productReference = C32732B62DAE3BE4002B3477 /* pritamIosCITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C32732BF2DAE3BE4002B3477 /* pritamIosCIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32732D02DAE3BE4002B3477 /* Build configuration list for PBXNativeTarget "pritamIosCIUITests" */;
+			buildPhases = (
+				C32732BC2DAE3BE4002B3477 /* Sources */,
+				C32732BD2DAE3BE4002B3477 /* Frameworks */,
+				C32732BE2DAE3BE4002B3477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32732C22DAE3BE4002B3477 /* PBXTargetDependency */,
+			);
+			name = pritamIosCIUITests;
+			productName = pritamIosCIUITests;
+			productReference = C32732C02DAE3BE4002B3477 /* pritamIosCIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C327329E2DAE3BDD002B3477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C32732A52DAE3BDD002B3477 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C32732B52DAE3BE4002B3477 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C32732A52DAE3BDD002B3477;
+					};
+					C32732BF2DAE3BE4002B3477 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C32732A52DAE3BDD002B3477;
+					};
+				};
+			};
+			buildConfigurationList = C32732A12DAE3BDD002B3477 /* Build configuration list for PBXProject "pritamIosCI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C327329D2DAE3BDD002B3477;
+			productRefGroup = C32732A72DAE3BDD002B3477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32732A52DAE3BDD002B3477 /* pritamIosCI */,
+				C32732B52DAE3BE4002B3477 /* pritamIosCITests */,
+				C32732BF2DAE3BE4002B3477 /* pritamIosCIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32732A42DAE3BDD002B3477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32732B12DAE3BE3002B3477 /* Preview Assets.xcassets in Resources */,
+				C32732AE2DAE3BE3002B3477 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32732B42DAE3BE4002B3477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32732BE2DAE3BE4002B3477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32732A22DAE3BDD002B3477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32732AC2DAE3BDD002B3477 /* ContentView.swift in Sources */,
+				C32732AA2DAE3BDD002B3477 /* pritamIosCIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32732B22DAE3BE4002B3477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32732BB2DAE3BE4002B3477 /* pritamIosCITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32732BC2DAE3BE4002B3477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32732C52DAE3BE4002B3477 /* pritamIosCIUITests.swift in Sources */,
+				C32732C72DAE3BE4002B3477 /* pritamIosCIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32732B82DAE3BE4002B3477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32732A52DAE3BDD002B3477 /* pritamIosCI */;
+			targetProxy = C32732B72DAE3BE4002B3477 /* PBXContainerItemProxy */;
+		};
+		C32732C22DAE3BE4002B3477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32732A52DAE3BDD002B3477 /* pritamIosCI */;
+			targetProxy = C32732C12DAE3BE4002B3477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C32732C82DAE3BE4002B3477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C32732C92DAE3BE4002B3477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32732CB2DAE3BE4002B3477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pritamIosCI/Preview Content\"";
+				DEVELOPMENT_TEAM = L652WX4QR4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = almapp.cybage.com.pritamIosCI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32732CC2DAE3BE4002B3477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pritamIosCI/Preview Content\"";
+				DEVELOPMENT_TEAM = L652WX4QR4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = almapp.cybage.com.pritamIosCI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C32732CE2DAE3BE4002B3477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L652WX4QR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = almapp.cybage.com.pritamIosCITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pritamIosCI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pritamIosCI";
+			};
+			name = Debug;
+		};
+		C32732CF2DAE3BE4002B3477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L652WX4QR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = almapp.cybage.com.pritamIosCITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pritamIosCI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pritamIosCI";
+			};
+			name = Release;
+		};
+		C32732D12DAE3BE4002B3477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L652WX4QR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = almapp.cybage.com.pritamIosCIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pritamIosCI;
+			};
+			name = Debug;
+		};
+		C32732D22DAE3BE4002B3477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L652WX4QR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = almapp.cybage.com.pritamIosCIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pritamIosCI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32732A12DAE3BDD002B3477 /* Build configuration list for PBXProject "pritamIosCI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32732C82DAE3BE4002B3477 /* Debug */,
+				C32732C92DAE3BE4002B3477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32732CA2DAE3BE4002B3477 /* Build configuration list for PBXNativeTarget "pritamIosCI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32732CB2DAE3BE4002B3477 /* Debug */,
+				C32732CC2DAE3BE4002B3477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32732CD2DAE3BE4002B3477 /* Build configuration list for PBXNativeTarget "pritamIosCITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32732CE2DAE3BE4002B3477 /* Debug */,
+				C32732CF2DAE3BE4002B3477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32732D02DAE3BE4002B3477 /* Build configuration list for PBXNativeTarget "pritamIosCIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32732D12DAE3BE4002B3477 /* Debug */,
+				C32732D22DAE3BE4002B3477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C327329E2DAE3BDD002B3477 /* Project object */;
+}
